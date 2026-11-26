@@ -16,7 +16,7 @@
 cd saveversion && python -m pytest tests -q
 ```
 
-初始 15 failed。
+初始 15 failed（其中 `v1_to_v2` 用例引用了未定义的 `_save` 工厂函数，已补齐）。
 
 ## 字段
 

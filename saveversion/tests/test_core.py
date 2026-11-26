@@ -11,6 +11,9 @@ def _raises(fn, exc=ValueError):
         return True
     return False
 
+def _save():
+    return saveversion.SaveMigrate()
+
 D = {"version": 1, "hp": 10}
 
 CASES = [
